@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 set -e
 
-#WINDOWS_WORKDIR="C:\\Users\\andreas\\workspace\\voice-similarity"
+# These paths are set up for Docker on Windows using Git Bash
 WINDOWS_WORKDIR="/$(pwd)"
 LINUX_WORKDIR="//data"
+
 IMAGE_NAME="voice-similarity"
 TMPDIR="_normalized_audio"
 
